@@ -1,0 +1,4 @@
+git submodule update --init --recursive
+
+export PS5_PAYLOAD_SDK=/path/to/ps5-payload-sdk
+./scripts/build.sh --jobs 8
